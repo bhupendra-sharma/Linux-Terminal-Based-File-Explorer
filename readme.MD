@@ -1,0 +1,4 @@
+-use in FULLSCREEN terminal only.
+-if directory path starts with ~ (~/foo.txt) then it is resolved into /home/{user name}/foo.txt
+-if . is present then it is current directory at which we are currently.
+-if it starts with / then that path is considered as path from root (absolute path)
